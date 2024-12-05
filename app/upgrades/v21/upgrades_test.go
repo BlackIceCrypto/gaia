@@ -9,7 +9,6 @@ import (
 
 	govparams "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-
 )
 
 func TestHasExpectedChainIDSanityCheck(t *testing.T) {
