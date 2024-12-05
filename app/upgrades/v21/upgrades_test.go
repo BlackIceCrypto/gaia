@@ -8,9 +8,6 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
 	govparams "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-
-	"github.com/cosmos/gaia/v21/app/helpers"
-	v21 "github.com/cosmos/gaia/v21/app/upgrades/v21"
 )
 
 func TestHasExpectedChainIDSanityCheck(t *testing.T) {
